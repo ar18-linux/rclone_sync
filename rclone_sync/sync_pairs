@@ -1,0 +1,18 @@
+# Needs trailing newline.
+# source <tab> destination <tab> mode
+# Modes:
+# 1: 1-way sync
+# 2: 2-way sync
+# 3: move
+/home/nulysses/AR/RCLONE_TEST	RCLONE_TEST:	1
+/home/nulysses/AR/RCLONE_TEST/RCLONE_OUTBOX	RCLONE_TEST:RCLONE_INBOX	3
+/home/nulysses/AR/CREATE	CREATE:	1
+/home/nulysses/AR/DOC	DOC:	1
+/home/nulysses/AR/APP	APP:	1
+/home/nulysses/AR/APP/RCLONE_OUTBOX	APP:RCLONE_INBOX	3
+/home/nulysses/AR/MEDIA	MEDIA:	1
+/home/nulysses/AR/MEDIA/RCLONE_OUTBOX	MEDIA:RCLONE_INBOX	3
+
+#####
+
+# Trailing newline.
