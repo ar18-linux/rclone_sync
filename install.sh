@@ -20,4 +20,4 @@ rm -rf "${install_dir}/${module_name}"
 cp -rf "${script_dir}/${module_name}" "${install_dir}/${module_name}"
 chmod +x "${install_dir}/${module_name}/"* -R
 
-pacman -Sy net-tools rclone yad
+pacman -Sy --noconfirm --needed net-tools rclone yad
