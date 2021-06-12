@@ -58,7 +58,7 @@ function build_base_menu(){
   printf "%s" "$(date +%s)" > "${temp_dir}/ts_menu_built"
 }
 
-strindex(){ 
+function strindex(){ 
   local x="${1%%$2*}"
   [[ "$x" = "$1" ]] && echo -1 || echo "${#x}"
 }
