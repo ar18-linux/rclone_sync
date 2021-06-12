@@ -1,4 +1,5 @@
-if [ -z "${install_dir+x}" ]; then
+module_name="rclone_sync"
+
+if [ ! -v install_dir ]; then
   install_dir="/opt/ar18"
 fi
-module_name="rclone_sync"
